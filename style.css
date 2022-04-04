@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    width: calc(100vw);
+    height: calc(100vh);
+    background-color: white;
+}
+div.tim{
+    display: flex;
+    width: calc(55vw);
+    height: calc(100vh);
+    background-color: transparent;
+    
+}
+img.tim{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: inherit;
+    width: inherit;
+}
+img.tl{
+    display: flex;
+    position: absolute;
+    left: calc(15vw);
+    top: calc(25vh);
+    width: calc(25vw);
+    height: calc(50vh);
+    z-index: 20;
+}
+div.frm{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    right: calc(0vw);
+    width: calc(43vw);
+    height: calc(100vh);
+    background-color: transparent;
+}
+div.twi{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(3vw);
+    height: calc(6vh);
+    width: calc(3vw);
+    background-color: transparent;
+}
+img.twi{
+    display: flex;
+    height: inherit;
+    width: inherit;
+}
+div.hppn{
+    display: flex;
+    position: absolute;
+    top: calc(23vh);
+    right: calc(0vw);
+    width: inherit;
+    height: calc(10vh);
+    background-color: transparent;
+    font-size: 400%;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.jn{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    right: calc(0vw);
+    height: calc(7vh);
+    width: calc(40vw);
+    background-color: transparent;
+    font-size: 200%;
+    font-weight: bolder;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.login{
+    display: flex;
+    position: absolute;
+    top: calc(50vh);
+    right: calc(0w);
+    width: inherit;
+    height: calc(18vh);
+    background: transparent;
+}
+
+button.sig{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(5vw);
+    width: calc(30vw);
+    height: calc(8vh);
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+
+}
+img.sig{
+    width: 20%;
+    height: 40%;
+    padding-right: 30px;
+}
+button.sia{
+    display: flex;
+    position: absolute;
+    top: calc(9vh);
+    left: calc(5vw);
+    width: calc(30vw);
+    height: calc(8vh);
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: large;
+    font-weight: bold;
+
+}
+img.sia{
+    width: 40%;
+    height: 100%;
+}
+button:hover{
+    background-color: gray;
+}
+div.siu{
+    display: flex;
+    position: absolute;
+    top: calc(75vh);
+    right: calc(0w);
+    width: inherit;
+    height: calc(18vh);
+    background: transparent;
+}
+
+button.siu{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(5vw);
+    width: calc(30vw);
+    height: calc(8vh);
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    background: rgb(80, 80, 255);
+}
+button.siu:hover{
+    background-color: darkgray;
+}
