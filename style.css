@@ -101,7 +101,7 @@ button.sig{
     justify-content: center;
     font-size: large;
     font-weight: bold;
-
+    border: 1px solid black;
 }
 img.sig{
     width: 20%;
@@ -121,6 +121,7 @@ button.sia{
     justify-content: flex-start;
     font-size: large;
     font-weight: bold;
+    border: 1px solid black;
 
 }
 img.sia{
