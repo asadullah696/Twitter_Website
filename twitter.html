@@ -7,19 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styleexplore.css">
-    <style>
+    <!-- <style>
         body{
             display: flex;
             height: calc(100vh);
             width: calc(100vw);
-            background-color: lightcyan;
+            background-color: rgb(248, 255, 255);
         }
         div.tw{
             display: flex;
-            position: absolute;
+            position: fixed;
             top: calc(0vh);
             left: calc(0vw);
-            width: calc(25vw);
+            width: calc(22vw);
             height: calc(100vh);
             background-color: white;
             border-right: 1px solid black;
@@ -43,7 +43,7 @@
             position: absolute;
             top: calc(8vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(08vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -70,7 +70,7 @@
             position: absolute;
             top: calc(18vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -81,7 +81,7 @@
             position: absolute;
             top: calc(28vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -92,7 +92,7 @@
             position: absolute;
             top: calc(38vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -103,7 +103,7 @@
             position: absolute;
             top: calc(48vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -114,7 +114,7 @@
             position: absolute;
             top: calc(58vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -125,7 +125,7 @@
             position: absolute;
             top: calc(68vh);
             right: calc(0vw);
-            height: calc(10vh);
+            height: calc(8vh);
             width: calc(20vw);
             background-color: transparent;
             border: none;
@@ -148,7 +148,7 @@
             border: none;
             border-radius: inherit;
             background-color: blue;
-            font-size: 150%;
+            font-size: 120%;
             color: aliceblue;
             font-weight: bold;
             box-shadow: 0px 2px 2px 2px rgb(0, 247, 255);
@@ -171,12 +171,13 @@
         }
         div.ht{
             display: flex;
-            position: absolute;
+            position: fixed;
             top: calc(0vh);
-            left: calc(0vw);
+            left: calc(24.5vw);
             width: inherit;
             height: calc(30vh);
             background-color: transparent;
+            z-index: 10;
         }
         div.htt{
             display: flex;
@@ -185,7 +186,7 @@
             left: calc(0vh);
             width: inherit;
             height: calc(6vh);
-            background-color: transparent;
+            background-color: white;
         }
         span.htt{
             display: flex;
@@ -252,7 +253,7 @@
             top: calc(2vh);
             right: calc(2vw);
             border: none;
-            background: rgb(82, 114, 255);
+            background: rgb(133, 156, 255);
             width: 20%;
             height: 50%;
             justify-content: center;
@@ -260,11 +261,298 @@
             align-items: center;
         }
         button.post:hover{
-            background-color: blue;
-            border: 0px 3px 3px 3px skyblue;
+            background-color: rgb(0, 0, 255);
+            border: 5px 3px 0px 3px skyblue;
+        }
+        i.post{
+            display: flex;
+            height: 60%;
+            color: rgba(0, 0, 255, 0.836);
+            margin-left: 15px;
+        }
+        div.moret{
+            display: flex;
+            position: absolute;
+            top: calc(30vh);
+            height: calc(5vh);
+            width: inherit;
+            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+            color: rgba(0, 0, 255, 0.836);
+            font-size: large;
+            border: 1px solid rgba(0, 0, 0, 0.418);
+        }
+        div.frstt{
+            display: flex;
+            position: absolute;
+            top: calc(35vh);
+            width: inherit;
+            height: calc(60vh);
+            background-color: white;
+        }
+        div.pd{
+            display: flex;
+            position: absolute;
+            top: calc(0vh);
+            width: inherit;
+            height: calc(12vh);
+            background-color: white;
+            border-right: 1px solid rgba(0, 0, 0, 0.616);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.521);
+        }
+        img.pd{
+            display: flex;
+            position: absolute;
+            top: calc(1vh);
+            left: calc(1.5vw);
+            height: 80%;
+            border: none;
+            border-radius: 100px;
+        }
+        span.pd{
+            display: flex;
+            position: absolute;
+            top: calc(7vh);
+            left: calc(7vw);
+            font-weight: bold;
+        }
+        a.pd{
+            text-decoration: none;
+            color: black;
+        }
+        span.pdu{
+            display: flex;
+            position: absolute;
+            top: calc(7.5vh);
+            left: calc(16.5vw);
+            color: rgba(0, 0, 0, 0.644);
+            font-size: small;
+        }
+        a.pdu{
+            color: gray;
+        }
+        div.twtd{
+            display: flex;
+            position: absolute;
+            top: calc(12vh);
+            left: calc(7.5vw);
+            width:calc(30vw);
+            background-color: white;
+            justify-content: flex-start;
+        }
+        div.imgtwt{
+            display: flex;
+            position: absolute;
+            top: calc(18vh);
+            left: calc(7.5vw);
+            width: calc(30vw);
+            height: calc(35vh);
+            background-color: white;
+        }
+        img.twtd{
+            border: none;
+            border-radius: 20px;
+        }
+        div.fnct{
+            display: flex;
+            position: absolute;
+            top: calc(53vh);
+            left: calc(7.5vw);
+            width: calc(30vw);
+            height: calc(5vh);
+            background-color: white;
+            text-align: center;
+            color: black;
+        }
+        div.scnd{
+            display: flex;
+            position: absolute;
+            top: calc(95vh);
+            width: inherit;
+            height: calc(60vh);
+            background-color: rgb(255, 255, 255);
+        }
+        i.tool{
+            margin-left: 60px;
+        }
+        div.thrd{
+            display: flex;
+            position: absolute;
+            top: calc(155vh);
+            width: inherit;
+            height: calc(60vh);
+            background-color: white;
+        }
+        div.frth{
+            display: flex;
+            position: absolute;
+            top: calc(215vh);
+            width: inherit;
+            height: calc(60vh);
+            background-color: white;
+        }
+        div.trnd{
+            display: flex;
+            position: absolute;
+            right: calc(0vw);
+            top: calc(0vh);
+            height: calc(100vh);
+            width: calc(28vw);
+            background: white;
+        }
+        div.srch{
+            display: flex;
+            position: fixed;
+            top: calc(2vh);
+            right: calc(0.3vw);
+            height: calc(8vh);
+            width: inherit;
+            background-color: white;
+            text-align: center;
+            justify-content: center;
+            z-index: 10;
+        }
+        input.srch{
+            width: calc(24vw);
+            height: calc(6vh);
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(128, 128, 128, 0.5);
+            color: white;
+        }
+        div.trndpak{
+            display: flex;
+            position: absolute;
+            top: calc(10vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(5vh);
+            border: 1px solid black;
+            color: black;
+            font-size: large;
+            font-weight: bold;
+            text-shadow: 0px 2px 0px 2px red;
+        }
+        div.trndpak1{
+            display: flex;
+            position: absolute;
+            top: calc(15vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+            
+        }
+        span.trndpak1{
+            display: flex;
+            position: absolute;
+            top: calc(0vh);
+            left: calc(1vw);
+            height: calc(2vh);
+            width: calc(20vw);
+            background-color: white;
+            font-size: small;
+            letter-spacing: 2px;
+        }
+        i.trndpak1{
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            bottom: calc(2vh);
+            left: calc(1vw);
+            height: calc(5vh);
+            width: calc(25vw);
+            background-color: white;
+            text-align: center;
+        }
+        b.trndpak1{
+            display: flex;
+            position: absolute;
+            bottom: calc(1vh);
+            left: calc(1vw);
+            height: calc(2vh);
+            font-weight: lighter;
+            width: calc(20vw);
+            background-color: white;
+            font-size: smaller;
+        }
+        div.trndpak2{
+            display: flex;
+            position: absolute;
+            top: calc(25vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak3{
+            display: flex;
+            position: absolute;
+            top: calc(35vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak4{
+            display: flex;
+            position: absolute;
+            top: calc(45vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak5{
+            display: flex;
+            position: absolute;
+            top: calc(55vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak6{
+            display: flex;
+            position: absolute;
+            top: calc(65vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak7{
+            display: flex;
+            position: absolute;
+            top: calc(75vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak8{
+            display: flex;
+            position: absolute;
+            top: calc(85vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
+        }
+        div.trndpak9{
+            display: flex;
+            position: absolute;
+            top: calc(95vh);
+            right: calc(0vw);
+            width: inherit;
+            height: calc(10vh);
+            border: 1px solid black;
         }
 
-    </style>
+    </style> -->
 </head>
 <body>
     <div class="tw">
@@ -319,7 +607,7 @@
             <div class="htt">
                 <span class="htt"> Home</span>
             </div>
-            <div class="tt">
+            <div title="Top Trending" class="tt trending">
                 <i class="bi tt bi-rss"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16">
                     <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
                     <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"/>
@@ -331,24 +619,189 @@
             <input class="post" type="text" name="Post" placeholder="What's Happening....">
         </div>
         <div class="pw">
-            <i class="bi bi-images"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+            <i class="bi post bi-images"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
                 <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                 <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
               </svg></i>
-              <i class="bi bi-filetype-gif"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-gif" viewBox="0 0 16 16">
+              <i class="bi post bi-filetype-gif"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-gif" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2H9v-1h3a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.278 13.124a1.403 1.403 0 0 0-.14-.492 1.317 1.317 0 0 0-.314-.407 1.447 1.447 0 0 0-.48-.275 1.88 1.88 0 0 0-.636-.1c-.361 0-.67.076-.926.229a1.48 1.48 0 0 0-.583.632 2.136 2.136 0 0 0-.199.95v.506c0 .272.035.52.105.745.07.224.177.417.32.58.142.162.32.288.533.377.215.088.466.132.753.132.268 0 .5-.037.697-.111a1.29 1.29 0 0 0 .788-.77c.065-.174.097-.358.097-.551v-.797H1.717v.589h.823v.255c0 .132-.03.254-.09.363a.67.67 0 0 1-.273.264.967.967 0 0 1-.457.096.87.87 0 0 1-.519-.146.881.881 0 0 1-.305-.413 1.785 1.785 0 0 1-.096-.615v-.499c0-.365.078-.648.234-.85.158-.2.38-.301.665-.301a.96.96 0 0 1 .3.044c.09.03.17.071.236.126a.689.689 0 0 1 .17.19.797.797 0 0 1 .097.25h.776Zm1.353 2.801v-3.999H3.84v4h.79Zm1.493-1.59v1.59h-.791v-3.999H7.88v.653H6.124v1.117h1.605v.638H6.124Z"/>
               </svg></i>
-              <i class="bi bi-emoji-smile"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+              <i class="bi post bi-emoji-smile"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
                 <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
               </svg></i>
-              <i class="bi bi-calendar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+              <i class="bi post bi-calendar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
                 <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
               </svg></i>
-              <i class="bi bi-map"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
+              <i class="bi post bi-map"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103zM10 1.91l-4-.8v12.98l4 .8V1.91zm1 12.98 4-.8V1.11l-4 .8v12.98zm-6-.8V1.11l-4 .8v12.98l4-.8z"/>
               </svg></i>
               <button class="post">Tweet</button>
+        </div>
+        <div class="moret">
+            Show 2 Tweets
+        </div>
+        <div class="frstt">
+            <div class="pd">
+                <img class="pd" src="https://pbs.twimg.com/profile_images/1485978384001810436/3WMqZe0U_400x400.jpg" alt="">
+                <span class="pd"><a class="pd" href="https://twitter.com/asadullah696" target="blank">Asadullah Rajpoot</a></span>
+                <span class="pdu"><a class="pdu" href="https://twitter.com/asadullah696" target="blank">@asadullah696</a> .27Jan</span>
+            </div>
+            <div class="twtd">
+                #trust <br>  💯💯
+            </div>
+            <div class="imgtwt">
+                <img class="twtd" src="./Assests/Data/trust.....XVl.jfif" alt="Corrupted">
+            </div>
+            <div class="fnct">
+                <i class="bi tool bi-chat" title="Comment"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-down-up" title="Retweet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg></i>
+                  <i class="bi tool bi-heart-fill" title="Like"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-up-right-square" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg></i>
+            </div>
+        </div>
+        <div class="scnd">
+            <div class="pd">
+                <img class="pd" src="https://pbs.twimg.com/profile_images/1485978384001810436/3WMqZe0U_400x400.jpg" alt="">
+                <span class="pd"><a class="pd" href="https://twitter.com/asadullah696" target="blank">Asadullah Rajpoot</a></span>
+                <span class="pdu"><a class="pdu" href="https://twitter.com/asadullah696" target="blank">@asadullah696</a> .10Jan</span>
+            </div>
+            <div class="twtd">
+                #Jannah <br> #DREAMS <br> 
+            </div>
+            <div class="imgtwt">
+                <img class="twtd" src="./Assests/Data/strangerrr....EZFFMLtWAAAJrqg.jfif" alt="Corrupted">
+            </div>
+            <div class="fnct">
+                <i class="bi tool bi-chat" title="Comment"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-down-up" title="Retweet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg></i>
+                  <i class="bi tool bi-heart-fill" title="Like"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-up-right-square" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg></i>
+            </div>
+        </div>
+        <div class="thrd">
+            <div class="pd">
+                <img class="pd" src="https://pbs.twimg.com/profile_images/1485978384001810436/3WMqZe0U_400x400.jpg" alt="">
+                <span class="pd"><a class="pd" href="https://twitter.com/asadullah696" target="blank">Asadullah Rajpoot</a></span>
+                <span class="pdu"><a class="pdu" href="https://twitter.com/asadullah696" target="blank">@asadullah696</a> .01Jan</span>
+            </div>
+            <div class="twtd">
+                #Soul <br> #Death <br> 
+            </div>
+            <div class="imgtwt">
+                <img class="twtd" src="./Assests/Data/souldeathhh....jfif" alt="Corrupted">
+            </div>
+            <div class="fnct">
+                <i class="bi tool bi-chat" title="Comment"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-down-up" title="Retweet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg></i>
+                  <i class="bi tool bi-heart-fill" title="Like"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-up-right-square" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg></i>
+            </div>
+        </div>
+        <div class="frth">
+            <div class="pd">
+                <img class="pd" src="https://pbs.twimg.com/profile_images/1485978384001810436/3WMqZe0U_400x400.jpg" alt="">
+                <span class="pd"><a class="pd" href="https://twitter.com/asadullah696" target="blank">Asadullah Rajpoot</a></span>
+                <span class="pdu"><a class="pdu" href="https://twitter.com/asadullah696" target="blank">@asadullah696</a> .27Dec</span>
+            </div>
+            <div class="twtd">
+                #bemuslim <br> #bebrave <br> 
+            </div>
+            <div class="imgtwt">
+                <img class="twtd" src="./Assests/Data/mencrrryyyyO.jfif" alt="Corrupted">
+            </div>
+            <div class="fnct">
+                <i class="bi tool bi-chat" title="Comment"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat" viewBox="0 0 16 16">
+                    <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-down-up" title="Retweet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+                  </svg></i>
+                  <i class="bi tool bi-heart-fill" title="Like"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg></i>
+                  <i class="bi tool bi-arrow-up-right-square" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+                  </svg></i>
+            </div>
+        </div>
+        
+    </div>
+    <div class="trnd">
+        <div class="srch">
+            <input type="text" name="" id="" class="srch" placeholder="Search From Twitter">
+        </div>
+        <div class="trndpak">
+            Trending For You
+        </div>
+        <div class="trndpak1">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">#HamzaShahbaz</i>
+            <b class="trndpak1">2,490 tweets</b>
+        </div>
+        <div class="trndpak2">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">#کرائے_کا_صحافی</i>
+            <b class="trndpak1">12.6k tweets</b>
+        </div>
+        <div class="trndpak3">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">Shahid Afridi</i>
+            <b class="trndpak1">41.6k tweets</b>
+        </div>
+        <div class="trndpak4">
+            <span class="trndpak1">#trending In Sports</span>
+            <i class="trndpak1">Benzema</i>
+            <b class="trndpak1">226k tweets</b>
+        </div>
+        <div class="trndpak5">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">Samaa</i>
+            <b class="trndpak1">26k tweets</b>
+        </div>
+        <div class="trndpak6">
+            <span class="trndpak1">#socialmedia</span>
+            <i class="trndpak1">WhatsApp</i>
+            <b class="trndpak1">280k tweets</b>
+        </div>
+        <div class="trndpak7">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">President Of Pakistan</i>
+            <b class="trndpak1">2,650 tweets</b>
+        </div>
+        <div class="trndpak8">
+            <span class="trndpak1">#sports</span>
+            <i class="trndpak1">Cheristinen</i>
+            <b class="trndpak1">24.2k tweets</b>
+        </div>
+        <div class="trndpak9">
+            <span class="trndpak1">#trending In Pakistan</span>
+            <i class="trndpak1">Bhai</i>
+            <b class="trndpak1">21.4 tweets</b>
         </div>
     </div>
     
